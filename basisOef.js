@@ -50,9 +50,16 @@ const toestellen = [
  * res: wasmachine, droogkast
  */
 
-
+// toestellen.forEach((toestel)=>{
+//   toestel.benaming.forEach((waarde)=>console.log(toestel.wat));
+// })
+toestellen[0].benaming.forEach((waarde)=>{
+    console.log(waarde);    
+});
 
 /**
  * Geef het id + toestel + probleem van de problemen die nog niet zijn opgelost
  * res: 2 - droogkast - filter stuk
  */
+
+toestellen
