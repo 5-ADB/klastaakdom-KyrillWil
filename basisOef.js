@@ -67,5 +67,6 @@ console.log(comma);
  */
 
 toestellen.forEach((waarde, index)=>{
+  console.log(waarde.id + waarde.benaming + waarde.omschrijving);
   
 })
